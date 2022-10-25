@@ -1,0 +1,166 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+}
+.grand {
+  display: flex;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.first {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../downloads/brooke-cagle-cb4Dv50LN1Y-unsplash\ 1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-menu {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  
+  cursor: pointer;
+  align-items: center;
+  gap: 30px;
+  margin-right: 130px;
+  text-decoration: underline;
+  text-decoration-color: #fff 0.6;
+}
+.button {
+  width: 127px;
+  height: 55px;
+  border: 1px solid #fff;
+  text-align: center;
+  text-justify: center;
+  opacity: 0.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.ul {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+}
+.team {
+  font-size: 30px;
+  font-weight: 650;
+  color: #fff;
+  width: 87px;
+  height: 60px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-style: normal;
+  margin-left: 140px;
+  cursor: pointer;
+}
+.box {
+  border: 1px solid #0BBEF2;
+  width: 5px;
+  height: 5px;
+  background-color: #0BBEF2;
+  margin-top: 15px;
+  margin-left: 2px;
+}
+.body1 {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+.title {
+  
+  width: 500px;
+  height: 120px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+  display: flex;
+  align-items: center;
+  margin-left: 140px;
+  margin-top: 165px;
+}
+.sub-title {
+  display: flex;
+  
+  margin-left: 140px;
+  margin-top: 36px;
+  width: 320px;
+}
+.input {
+  display: flex;
+  flex-direction: row;
+  gap: 11px;
+}
+.input1 {
+  width: 247px;
+  height: 36px;
+  display: flex;
+  margin-left: 140px;
+  margin-top: 40px;
+}
+.button1 {
+  background-color: #0BBEF2;
+  width: 163px;
+  height: 42px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  
+  text-align: center;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.second {
+  width: 100vw;
+  height: 100vh;
+  background-color: #F5F5F5;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.sub-second {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.head-title {
+  display: flex;
+  
+  font-weight: 800;
+  size: 48px;
+  width: 398px;
+  height: 120px;
+  margin-left: 140px;
+  margin-top: 25%;
+}
+.following-title {
+  width: 465px;
+  height: 145px;
+  margin-left: 140px;
+  margin-top: 200px;
+  
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  color: #182D40;
+}
+.second-img {
+  src: url(../downloads/ooto\ Meetings\ 1.svg);
+  width: 30vw;
+  height: 80vh;
+  background-size: contain;
+  display: flex;
+  justify-content: flex-end;
+}
