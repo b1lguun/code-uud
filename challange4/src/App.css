@@ -13,7 +13,7 @@ body {
 .first {
   width: 100vw;
   height: 100vh;
-  background-image: url(../downloads/brooke-cagle-cb4Dv50LN1Y-unsplash\ 1.jpg);
+  background-image: url(./downloads/brooke-cagle-cb4Dv50LN1Y-unsplash\ 1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -157,7 +157,6 @@ body {
   color: #182D40;
 }
 .second-img {
-  src: url(../downloads/ooto\ Meetings\ 1.svg);
   width: 30vw;
   height: 80vh;
   background-size: contain;

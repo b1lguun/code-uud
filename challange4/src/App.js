@@ -1,4 +1,5 @@
 import "./App.css";
+import image from "./downloads/image1.jpg";
 
 function App() {
   return (
@@ -47,7 +48,7 @@ function App() {
             </div>
           </div>
           <div className="second-image">
-            <img className="second-img" />
+            <img className="second-img" src={image} />
           </div>
         </div>
       </div>
