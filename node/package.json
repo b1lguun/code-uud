@@ -1,4 +1,10 @@
 {
+<<<<<<< HEAD
+=======
+  "name": "node",
+  "version": "0.1.0",
+  "private": true,
+>>>>>>> 82b2df5ef4e43d2aec65039e7b54c824b651f5b7
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
