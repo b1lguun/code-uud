@@ -1,0 +1,51 @@
+.main {
+    width: 17vw;
+    height: 100vh;
+    background-color: black;
+}
+.up {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+.up img {
+    width: 30%;
+    margin-left: 6%;
+}
+.center {
+    width: 100%;
+    height: 65%;
+    cursor: pointer;
+    position: relative;
+}
+.center div {
+    width: 85%;
+    height: 12%;
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 1vw;
+    margin-left: 1vw;
+    border-radius: 30px;
+}
+.center :hover  {
+    background-color: #252525;
+}
+.center svg {
+    margin-left: 6%;
+}
+.down {
+    position: absolute;
+    bottom: 0;
+    margin-left: 1.9vw;
+    display: flex;
+    gap: 1vw;
+    margin-bottom: 4vh;
+}
+
+.down p {
+    color: white;
+    display: flex;
+    align-items: center;  
+}

@@ -1,0 +1,87 @@
+.post {
+    width: 100%;
+    height: 96vh;
+    border-radius: 10px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.username {
+    width: 100%;
+    height: 9%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: orange;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+.userprofile {
+    display: flex;
+    gap: 2vw;
+}
+.userprofile p {
+    display: flex;
+    align-items: center;
+}
+.userprofile-menu {
+    display: flex;
+    align-items: center;
+    margin-right: 3%;
+}
+.userpic {
+    width: 100%;
+    height: 65%;
+    background-color: yellow;
+}
+.userlike {
+    width: 100%;
+    height: 19%;
+    cursor: pointer;
+}
+.userlike-icon {
+    display: flex;
+    justify-content: space-between;
+}
+.user-three-icon {
+    display: flex;
+    gap: 1vw;
+    margin-top: 1vh;
+    margin-left: 1vw;
+}
+.user-save :hover {
+    opacity: 0.6;
+}
+.user-save {
+    margin-right: 1vw;
+    margin-top: 1vh;
+}
+.usercomment {
+    width: 100%;
+    height: 7%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.usercomment svg {
+    cursor: pointer;
+}
+.usercomment input {
+    background-color: black;
+    border: none;
+    color: gray;
+    display: flex;
+    width: 75%;
+    height: 100%;
+    outline:none
+}
+.usercomment p {
+    color: rgb(142, 142, 252);
+    margin-right: 1vw;
+}
+.hover-icon :hover {
+    opacity: 0.6;
+}
